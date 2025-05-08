@@ -6,6 +6,11 @@
 @LastEditTime: 2020-06-10
 @LastEditors: Huangying Zhan
 @Description: PnP Tracker to estimate camera motion from given 3D-2D correspondences
+--------------------  
+@Modified by: Qingyuan Hu (Hqy9952@gmail.com)  
+@Date: 2024-10-21 
+@Description: Modified for use in JD-VO.  
+--------------------
 '''
 
 import cv2
