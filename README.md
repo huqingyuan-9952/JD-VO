@@ -45,7 +45,7 @@ You can download the depth, optical flow, and keypoint networks from [here](http
 
 
 
-### 4. Run JD-VO on kitti odometry dataset
+### 4. Run JD-VO on KITTI odometry dataset
 
 ```
 python apis/run.py -d options/examples/default_configuration.yml  
@@ -55,7 +55,7 @@ Results are stored in the directory defined by configuration file.
 See `options/examples/default_configuration.yml`  for a reference configuration.
 
 
-### 5. Result Evaluation
+### 5. Result evaluation
 
 The evaluation can be performed by executing the command shown below:
 
@@ -84,7 +84,6 @@ Alternatively, trajectory evaluation can also be performed using [evo](https://g
   <img src='docs/10.png' width="80%">
   <p><b>Sequence 10</b></p>
 </div>
-
 
 
 
