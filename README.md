@@ -15,9 +15,9 @@ This repo includes
 1. [Requirements](#1-requirements)
 2. [Download KITTI dataset](#2-download-kitti-dataset)
 3. [Download models](#3-download-models)
-4. [Run kitti odometry dataset](#4-run-kitti-odometry-dataset)
+4. [Run JD-VO on kitti odometry dataset](#4-run-jd-vo-on-kitti-odometry-dataset)
 5. [Result evaluation](#5-result-evaluation)
-6. [Run your own dataset](#6-run-your-own-dataset)
+6. [Run JD-VO on self-collected dataset](#6-run-jd-vo-on-self-collected-dataset)
 
 
 ### 1. Requirements
@@ -45,7 +45,7 @@ You can download the depth, optical flow, and keypoint networks from [here](http
 
 
 
-### 4. Run kitti odometry dataset
+### 4. Run JD-VO on kitti odometry dataset
 
 ```
 python apis/run.py -d options/examples/default_configuration.yml  
@@ -56,6 +56,14 @@ See `options/examples/default_configuration.yml`  for a reference configuration.
 
 
 ### 5. Result Evaluation
+
+The evaluation can be performed by executing the command shown below:
+
+```
+python tools/evaluation/odometry/eval_odom.py --result result/tmp/0 --align 6dof
+```
+Alternatively, trajectory evaluation can also be performed using [evo](https://github.com/MichaelGrupp/evo).
+
 
 <div align="center">
   <img src='docs/00.png' width="80%">
@@ -78,14 +86,8 @@ See `options/examples/default_configuration.yml`  for a reference configuration.
 </div>
 
 
-#### KITTI
 
-The evaluation can be performed by executing the command shown below:
 
-```
-python tools/evaluation/odometry/eval_odom.py --result result/tmp/0 --align 6dof
-```
-Alternatively, trajectory evaluation can also be performed using [evo](https://github.com/MichaelGrupp/evo).
 
 
 
