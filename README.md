@@ -6,7 +6,7 @@ It is based on the system described in **"Monocular Visual Odometry with Absolut
 
 This repo includes
 1. visual odometry system JD-VO;
-2. evaluation scripts for visual odometry; 
+2. evaluation scripts for JD-VO; 
 3. visualize JD-VO results;
 4. How to run JD-VO on self-collected dataset
 
