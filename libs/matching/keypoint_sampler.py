@@ -6,6 +6,11 @@
 @LastEditTime: 2020-07-06
 @LastEditors: Huangying Zhan
 @Description: KeypointSampler is an interface for keypoint sampling
+--------------------  
+@Modified by: Qingyuan Hu (Hqy9952@gmail.com)  
+@Date: 2024-11-26 
+@Description: Modified for use in JD-VO.  
+--------------------
 '''
 
 
