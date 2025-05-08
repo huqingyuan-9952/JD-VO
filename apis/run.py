@@ -6,6 +6,11 @@
 @LastEditTime: 2020-06-02
 @LastEditors: Huangying Zhan
 @Description: This API runs DF-VO.
+--------------------  
+@Modified by: Qingyuan Hu (Hqy9952@gmail.com)  
+@Date: 2025-01-08 
+@Description: Modified for use in JD-VO.  
+--------------------
 '''
 
 import argparse
