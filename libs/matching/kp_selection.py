@@ -6,6 +6,11 @@
 @LastEditTime: 2020-07-07
 @LastEditors: Huangying Zhan
 @Description: this file contains different correspondence selection methods
+--------------------  
+@Modified by: Qingyuan Hu (Hqy9952@gmail.com)  
+@Date: 2024-11-26 
+@Description: Modified for use in JD-VO.  
+--------------------
 '''
 
 import math
