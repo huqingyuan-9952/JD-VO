@@ -7,11 +7,10 @@
 @LastEditors: Huangying Zhan
 @Description: DF-VO core program
 --------------------  
-Modified by: Qingyuan Hu (Hqy995@gmail.com)  
-Date: 2025-01-08 
-Description: Modified for use in JD-VO.  
+@Modified by: Qingyuan Hu (Hqy9952@gmail.com)  
+@Date: 2025-01-08 
+@Description: Modified for use in JD-VO.  
 --------------------
-
 '''
 
 import cv2
